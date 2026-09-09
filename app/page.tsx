@@ -79,7 +79,7 @@ const playstyleStats = Object.values(
     },
     {} as Record<string, any>
   )
-).map((style) => ({
+).map((style: any) => ({
   ...style,
 
   winRate: (style.wins / style.total) * 100,
