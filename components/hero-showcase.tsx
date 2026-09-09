@@ -109,28 +109,25 @@ export function HeroShowcase({
               what behaviors appear most successful.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
+            <a href="#playstyles">
             <Button
-                asChild
                 size="lg"
                 className="h-12 rounded-xl bg-cyan-400 px-7 font-bold text-[#02111d] shadow-[0_0_25px_rgba(34,211,238,0.18)] hover:bg-cyan-300"
             >
-                <a href="#playstyles">
                 Explore Playstyles
                 <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
             </Button>
-                <Button
-                asChild
+            </a>
+                <a href="#data">
+            <Button
                 size="lg"
                 variant="outline"
                 className="h-12 rounded-xl border-cyan-400/45 bg-[#03101c]/70 px-7 text-white hover:bg-cyan-400/10 hover:text-white"
-                >
-                <a href="#data">
-                    <BarChart3 className="mr-2 h-4 w-4 text-cyan-300" />
-                    View the Data
-                </a>
-                </Button>
-
+            >
+                <BarChart3 className="mr-2 h-4 w-4 text-cyan-300" />
+                View the Data
+            </Button>
+            </a>
 
             </div>
           </div>
